@@ -1,6 +1,9 @@
 {
   "name": "teste-deploy-vercel",
   "version": "1.0.0",
+  "engines": {
+    "node": "16.x"
+  },
   "main": "index.js",
   "repository": "git@github.com:Drb-Diego/teste-deploy-vercel.git",
   "author": "Diego Brito <diegorbrito9@gmail.com>",

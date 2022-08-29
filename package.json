@@ -1,0 +1,15 @@
+{
+  "name": "teste-deploy-vercel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Drb-Diego/teste-deploy-vercel.git",
+  "author": "Diego Brito <diegorbrito9@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1"
+  }
+}

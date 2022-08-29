@@ -1,13 +1,9 @@
-const app = require('express')()
-const cors = require('cors');
-require('dotenv').config();
+const express = require("express");
 
-app.use(cors());
-const { PORT } = process.env;
+const app = express();
 
-app.get('/', (_req, res, _next) => res.status(200).json({ message: 'olá mundo pela vercel !' }));
-app.get('/teste', (_req, res, _next) => res.status(200).json({ message: 'rota 2' }));
+app.get("/", (_req, res) => res.send("Express on Vercel"));
 
-app.listen(PORT, () => console.log('Server Up'));
+app.listen(5000, () => console.log("Running on port 5000."));
 
 module.exports = app;
